@@ -1,0 +1,418 @@
+@media (min-width: 720px){
+    .a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    }
+
+    .menu {
+        display: none;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    
+    p, h1 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    
+    .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 600px;
+        background-image: url(../src/Img.png);
+    }
+
+    .header-box {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .header-h1 {
+        padding: 0;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 44px;
+        text-align: center;
+        color: #FFFF;
+        letter-spacing: 6%;
+    }
+    
+    .header-but {
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 6%;
+        margin-top: 18px;
+        width: 200px;
+        height: 50px;
+        background: #2196F3;
+        border: #2196F3;
+        color: #FFFFFF;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    }
+    
+    .header-but:hover {
+        background: #1c82d5;
+        cursor: pointer;
+    }
+    
+    .header-up {
+        display: flex;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        padding-left: 15%;
+        justify-content: baseline;
+        align-self: baseline;
+        text-align: center;
+    }
+    
+    .logo {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        margin-right: 8%;
+    }
+    
+    .logo span {
+        font-family: 'Fira Sans';
+        color: #2196F3;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+    }
+    
+    .header-inf {
+        display: inline-flex;
+        gap: 54.5px;
+        padding-top: 8px;
+        padding-right: 8%;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .header-inf > a {
+        text-decoration: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        color: black;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    }
+    
+    .header-inf > a:hover {
+        color: #2196F3;
+        cursor: pointer;
+    }
+
+    .author {
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .phone > svg > path {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        width: 10px;
+    }
+    
+    .phone:hover > svg > path {
+        fill: #2196F3;
+        color: #2196F3;
+        width: 15.99px;
+        height: 11.99px;
+    }
+    
+    .mail > svg > path {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    }
+    
+    .phone {
+        font-size: 100%;
+    }
+    
+    .mail {
+        padding-top: 0%;
+        font-size: 100%;
+    }
+    
+    .mail:hover > svg > path {
+        fill: #2196F3;
+        color: #2196F3;
+        width: 15.99px;
+        height: 11.99px;
+    }
+    
+    .phone:hover{
+        color: #2196F3;
+        cursor: pointer;
+    }
+    
+    .mail:hover{
+        color: #2196F3;
+        cursor: pointer;
+    }
+    
+    main {
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .main-plusses {
+        padding: 3%;
+        display: inline-flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .main-plusses-container {
+        width: calc(50% - 10px);
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .main-plusses-container-img {
+        display: inline-flex;
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        background: #F5F4FA;
+        width: 100%;
+        padding-top: 7%;
+        padding-bottom: 7%;
+        margin-bottom: 30px;
+    }
+    .main-plusses-container-txt {
+        justify-content: center;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        font-size: small;
+    }
+    
+    .what-we-do {
+        display: none;
+    }
+
+    .our-team {
+        background: #F5F4FA;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .our-team-txt {
+        height: 4.5px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        font-style: normal;
+        font-size: 200%;
+        text-align: center;
+    }
+    
+    .our-team-img {
+        margin: 0 auto; 
+    }
+
+    .our-team-img-cntainer0 {
+        display: inline-flex;
+        flex-direction: row;
+        gap: 30px;
+        flex-wrap: wrap;
+
+        width: 470px;
+    }
+
+    .our-team-img-cntainer0-container1 {
+        background-color: #FFFFFF;
+        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        gap: 30px;
+        text-align: center;
+    }
+
+    button {
+        padding-top: 10px;
+        border-radius: 100%;
+        border: 0;
+        background-color: #FFFFFF;
+        height: 44px;
+        width: 44px;
+        transition: 0.1s;
+    }
+
+    button:hover {
+        background-color: #2196F3;
+    }
+
+    button:hover > svg > .btn {
+        fill: #FFFFFF;
+    }
+
+    .btns {
+        margin-top: 3px;
+        margin-bottom: 3px;
+    }
+
+    .c0 {
+        margin-top: 3px;
+    }
+
+    .c1 {
+        color: #757575;
+        margin-bottom: 35px;
+    }
+    
+    .our-team-img-cntainer0-container1-ico {
+        padding-top: 16px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding-left: 2.75px;
+    }
+    
+    button {
+        border-radius: 100%;
+        border: 0;
+        background-color: #FFFFFF;
+        height: 44px;
+        width: 44px;
+        transition: 0.1s;
+    }
+    
+    button:hover > svg > .btn {
+        fill: #FFFFFF;
+    }
+    
+    button:hover {
+        background-color: #2196F3;
+    }
+
+    .links {
+        background: #2F303A;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        display: flex;
+        gap: 9px;
+        justify-content: center;
+        display: inline-flex;
+        gap: 10%;
+    }
+    
+    .logo2 {
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+    }
+    
+    .logo2 > span {
+        color: #2196F3;
+        padding-bottom: 11px;
+    }
+    
+    a {
+        display: inline-block;
+        color: rgb(185, 185, 185);
+    }
+    
+    a:hover{
+        color: #FFFFFF;
+    }
+    
+    .p {
+        color: white;
+        text-decoration: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont,
+    }
+    
+    .l1 {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 477%;
+    }
+    
+    .l2 {
+        display: inline-flex;
+        padding-top: 1%;
+        flex-direction: column;
+        gap: 598%;
+    }
+    
+    .button2 {
+        border-radius: 100%;
+        border: 0;
+        background: rgba(255, 255, 255, 0.1);
+        height: 44px;
+        width: 44px;
+        transition: 0.1s;
+    }
+    
+    .button2:hover > svg > .btn {
+        fill: #FFFFFF;
+    }
+    
+    .button2:hover {
+        background-color: #2196F3;
+    } 
+    
+    .l3 {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    .l3 > p {
+        color: white;
+    }
+
+    .l3 > button > span{
+        font-size: 140%;
+    }
+
+    .l3 > button > svg{
+        padding: 0;
+    }
+    
+    .email {
+        padding: 2px;
+        border: 2px, solid, white;
+        background: #27272f;
+    }
+}
